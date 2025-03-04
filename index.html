@@ -3,36 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>OnaTofu</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #101d10; /* dark green black */
+        }
+        .logo {
+            color: #e1b679; /* Pale gold color */
+        }
+    </style>
 </head>
 <body>
+    <!-- Header with Dropdown Menu -->
     <header>
-        <h1>Welcome to My Portfolio</h1>
+        <div class="logo">OnaTofu</div>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#home">Home</a></li>
+                <li class="dropdown">
+                    <a href="work.html" class="dropbtn">My Work</a>
+                    <div class="dropdown-content">
+                        <a href="work.html#pixel-art">Pixel Art</a>
+                        <a href="work.html#3d-art">3D Art</a>
+                        <a href="work.html#2d-art">2D Art</a>
+                    </div>
+                </li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm an artist and developer creating interactive experiences.</p>
+
+    <!-- Landing Page -->
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Explore my artwork and projects in different categories.</p>
     </section>
 
-    <section id="projects">
-        <h2>My Projects</h2>
-        <p>Check out some of my work here.</p>
-    </section>
-
+    <!-- Contact Section -->
     <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: myemail@example.com</p>
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Submit</button>
+        </form>
     </section>
 
-    <script src="script.js"></script>
+    <footer>
+        <p>© 2025 My Art Portfolio</p>
+    </footer>
+    <script src="background.js"></script>
 </body>
 </html>

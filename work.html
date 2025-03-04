@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Work</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .logo {
+            color: #e6be8a; /* Pale gold color */
+        }
+        .categories {
+            position: fixed;
+            top: 100px; /* Adjust based on header height */
+            left: 20px;
+            width: 200px;
+        }
+        .content {
+            margin-left: 240px; /* Adjust based on categories width */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation and Sidebar -->
+    <header>
+        <div class="logo">My Work</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="work">
+        <div class="categories">
+            <ul>
+                <li><a href="#pixel-art">Pixel Art</a></li>
+                <li><a href="#3d-art">3D Art</a></li>
+                <li><a href="#2d-art">2D Art</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <!-- Artworks by Category -->
+            <div id="pixel-art" class="category" style="background-color: rgba(0, 0, 0, 0.8);">
+                <h2>Pixel Art</h2>
+                <div class="artwork-gallery">
+                    <p>Showcase of Pixel Art pieces...</p>
+                    <!-- Add images or links to your pixel art here -->
+                </div>
+            </div>
+
+            <div id="3d-art" class="category" style="background-color: rgba(0, 0, 0, 0.8);">
+                <h2>3D Art</h2>
+                <div class="artwork-gallery">
+                    <p>Showcase of 3D Art pieces...</p>
+                    <!-- Add images or links to your 3D art here -->
+                </div>
+            </div>
+
+            <div id="2d-art" class="category" style="background-color: rgba(0, 0, 0, 0.8);">
+                <h2>2D Art</h2>
+                <div class="artwork-gallery">
+                    <p>Showcase of 2D Art pieces...</p>
+                    <!-- Add images or links to your 2D art here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 My Art Portfolio</p>
+    </footer>
+
+    <!-- Toggle Background Button -->
+    <button id="toggle-background" style="position: fixed; bottom: 10px; left: 10px; width: 50px; height: 50px; border-radius: 50%; background-color: white;"></button>
+</body>
+<script src="background.js"></script>
+</html>
