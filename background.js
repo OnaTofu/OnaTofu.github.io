@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         mouse.y = event.y;
     });
 
-    const toggleButton = document.getElementById('toggle-background');
+     const toggleButton = document.getElementById('toggle-background');
     toggleButton.addEventListener('click', () => {
         backgroundColor = backgroundColor === 'black' ? 'white' : 'black';
         toggleButton.style.backgroundColor = backgroundColor === 'black' ? 'white' : 'black';
