@@ -6,17 +6,33 @@
     <title>My Work</title>
     <link rel="stylesheet" href="styles.css">
     <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
         .logo {
             color: #e6be8a; /* Pale gold color */
+        }
+        header, section, footer {
+            width: 100%;
+            box-sizing: border-box;
         }
         .categories {
             position: fixed;
             top: 100px; /* Adjust based on header height */
             left: 20px;
-            width: 200px;
+            width: 20%;
+            box-sizing: border-box;
         }
         .content {
             margin-left: 240px; /* Adjust based on categories width */
+            width: 80%;
+            box-sizing: border-box;
+        }
+        .category {
+            width: 100%;
+            box-sizing: border-box;
         }
     </style>
 </head>
@@ -42,7 +58,7 @@
 
         <div class="content">
             <!-- Artworks by Category -->
-            <div id="pixel-art" class="category" style="background-color: rgba(0, 0, 0, 0.8);">
+            <div id="pixel-art" class="category" style="background-color: rgba(0, 0, 0, 0);">
                 <h2>Pixel Art</h2>
                 <div class="artwork-gallery">
                     <p>Showcase of Pixel Art pieces...</p>
@@ -50,7 +66,7 @@
                 </div>
             </div>
 
-            <div id="3d-art" class="category" style="background-color: rgba(0, 0, 0, 0.8);">
+            <div id="3d-art" class="category" style="background-color: rgba(92, 53, 53, 0);">
                 <h2>3D Art</h2>
                 <div class="artwork-gallery">
                     <p>Showcase of 3D Art pieces...</p>
@@ -58,7 +74,7 @@
                 </div>
             </div>
 
-            <div id="2d-art" class="category" style="background-color: rgba(0, 0, 0, 0.8);">
+            <div id="2d-art" class="category" style="background-color: rgba(0, 0, 0, 0);">
                 <h2>2D Art</h2>
                 <div class="artwork-gallery">
                     <p>Showcase of 2D Art pieces...</p>

@@ -45,13 +45,13 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 40px;
-    background-color: #111;
+    background-color: #11111100;
     border-radius: 10px;
 }
 
 header .logo {
-    font-size: 40px;
-    font-family: 'Velista', sans-serif;
+    font-size: 30px;
+    font-family: 'laobrige', sans-serif;
     color: #dfac72; /* Lighter green */
 }
 
@@ -76,7 +76,7 @@ nav ul li.dropdown {
 }
 
 nav ul li.dropdown .dropbtn {
-    background-color: #111;
+    background-color: #11111100;
     color: white;
     padding: 10px 20px;
     font-size: 18px;
@@ -120,7 +120,7 @@ nav ul li.dropdown .dropdown-content a:hover {
 .categories {
     width: 200px; /* Fixed width for categories */
     padding: 20px;
-    margin-top: 20px; /* Add margin to avoid overlap with navigation bar */
+    margin-top: 50px; /* Add margin to avoid overlap with navigation bar */
     position: fixed; /* Make it fixed to move with scroll */
     top: 0; /* Position it at the top */
 }
@@ -145,23 +145,15 @@ nav ul li.dropdown .dropdown-content a:hover {
     background-color: #66BB6A; /* Lighter green */
 }
 
-.categories.white-background ul li a {
-    color: #000; /* Change text color to black */
-}
-
-.categories.white-background ul li a:hover {
-    background-color: #ccc; /* Change hover background color to a lighter shade */
-}
-
 .category {
-    background-color: #444;
+    background-color: #ffffff00;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
 }
 
 .category h2 {
-    color: #f1de72; /* Lighter green */
+    color: #ffffff; /* Lighter green */
 }
 
 .artwork-gallery {
