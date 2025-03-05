@@ -48,7 +48,7 @@ body {
     color: #fff;
     font-family: 'HugolersStylish', Helvetica, Arial, sans-serif;
     margin: 0;
-    padding: 20px;
+    /*padding: 20px;*/
     box-sizing: border-box;
 }
 
@@ -109,7 +109,7 @@ nav ul li.dropdown {
 nav ul li.dropdown .dropbtn {
     background-color: #11111100;
     color: white;
-    padding: 10px 20px;
+   /* padding: 10px 20px; */
     font-size: 18px;
     cursor: pointer;
     border: none;
@@ -148,6 +148,7 @@ nav ul li.dropdown .dropdown-content a:hover {
 #work {
     display: flex; /* Change to flex for horizontal layout */
     padding: 20px;
+    margin-top: 20px;
 }
 
 .categories {
@@ -201,7 +202,7 @@ html {
 /* Footer */
 footer {
     text-align: center;
-    padding: 20px;
+    /*padding: 20px;*/
     background-color: #11111100;
     color: #888;
     border-radius: 10px;
