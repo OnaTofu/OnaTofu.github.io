@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'HugolersStylish';
+    src: url('../../fonts/Hugolers\ Stylish.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.footer-section {
+    .copywrite {
+        text-align: center;
+        font-family: 'HugolersStylish', Helvetica, Arial, sans-serif;
+        color: #e1b679;
+    }
+}

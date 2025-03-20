@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'laobrige';
+    src: url('../../../fonts/La\ Obrige.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo-banner-section {
+    padding-top: 30px;
+    .logo {
+        text-align: center;
+        font-family: 'laobrige', sans-serif;
+        color: #e1b679;
+    }
+}

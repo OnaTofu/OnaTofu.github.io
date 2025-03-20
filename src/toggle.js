@@ -21,10 +21,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Change text color for contrast
         const textColor = backgroundColor === 'black' ? 'white' : 'black';
-        document.querySelectorAll('h2, p, a').forEach(element => {
+        document.querySelectorAll('h2, p, a').forEach((element) => {
             element.style.color = textColor;
         });
-
-
     });
 });

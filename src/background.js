@@ -19,14 +19,16 @@ document.addEventListener('DOMContentLoaded', () => {
         mouse.y = event.y;
     });
 
-     const toggleButton = document.getElementById('toggle-background');
+    const toggleButton = document.getElementById('toggle-background');
     toggleButton.addEventListener('click', () => {
         backgroundColor = backgroundColor === 'black' ? 'white' : 'black';
         toggleButton.style.backgroundColor = backgroundColor === 'black' ? 'white' : 'black';
-        
+
         const textColor = backgroundColor === 'black' ? 'white' : 'black';
-        const workTextElements = document.querySelectorAll('#work .category h2, #work .category p, #work .categories ul li a, header nav ul li a');
-        workTextElements.forEach(element => {
+        const workTextElements = document.querySelectorAll(
+            '#work .category h2, #work .category p, #work .categories ul li a, header nav ul li a',
+        );
+        workTextElements.forEach((element) => {
             element.style.color = textColor;
         });
 
