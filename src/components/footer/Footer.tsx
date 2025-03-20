@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
         <div className="footer-section">
         <Box sx={{ width: '100%' }}>
             <Typography className='copywrite' variant="body1" gutterBottom>
-            © 2025 OnaTofu
+            ©  {new Date().getFullYear()} OnaTofu
             </Typography>
         </Box>
     </div>
