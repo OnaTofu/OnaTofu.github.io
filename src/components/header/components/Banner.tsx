@@ -9,7 +9,7 @@ const Banner: React.FC = () => {
     return (
         <div className="logo-banner-section">
             <Box sx={{ width: '100%' }}>
-                <Typography className='logo' variant="h4" gutterBottom>
+                <Typography className="logo" variant="h4" gutterBottom>
                     OnaTofu
                 </Typography>
             </Box>

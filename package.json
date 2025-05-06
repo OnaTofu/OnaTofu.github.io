@@ -7,7 +7,7 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "prettier": "echo '\nCorrecting styles...' && prettier --write \"src/**/*.{js,ts,tsx,scss}\"",
+        "prettier": "npx prettier . --write \"src/**/*.{js,ts,tsx,scss}\"",
         "lint": "next lint",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build"
