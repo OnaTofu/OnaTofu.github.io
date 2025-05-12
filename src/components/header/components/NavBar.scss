@@ -9,9 +9,11 @@
   padding: 20px;
   .button-section {
     text-align: center;
+    align-items: center;
     .button {
       font-family: 'HugolersStylish', Helvetica, Arial, sans-serif;
       color: #ffffff;
+      text-align: center;
     }
   }
 }
