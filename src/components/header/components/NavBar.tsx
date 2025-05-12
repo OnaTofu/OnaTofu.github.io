@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, Button, Grid2, Menu, MenuItem, MenuProps, Typography, styled } from '@mui/material';
+import { Box, Button, Grid, Menu, MenuItem, MenuProps, Typography, styled } from '@mui/material';
 import './NavBar.scss';
 
 /**
@@ -41,13 +41,13 @@ const NavBar: React.FC = () => {
                     alignItems: 'center',
                 }}
             >
-                <Grid2 width="10%" className="button-section" container>
-                    <Grid2 size={{ xs: 6 }}>
+                <Grid width="10%" className="button-section" container>
+                    <Grid size={{ xs: 6 }}>
                         <Button>
                             <Typography className="button">Home</Typography>
                         </Button>
-                    </Grid2>
-                    <Grid2 size={{ xs: 6 }}>
+                    </Grid>
+                    <Grid size={{ xs: 6 }}>
                         <Button
                             id="basic-button"
                             aria-controls={open ? 'basic-menu' : undefined}
@@ -69,8 +69,8 @@ const NavBar: React.FC = () => {
                             <MenuItem onClick={handleClose}>3D Art</MenuItem>
                             <MenuItem onClick={handleClose}>2D Art</MenuItem>
                         </StyledMenu>
-                    </Grid2>
-                </Grid2>
+                    </Grid>
+                </Grid>
             </Box>
         </div>
     );
